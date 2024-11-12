@@ -2,7 +2,6 @@
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
   import "../app.css";
-  import "@fortawesome/fontawesome-free/css/all.min.css";
   let y;
   let innerWidth = 0;
   let innerHeight = 0;
@@ -12,6 +11,10 @@
   }
 </script>
 
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+/>
 <div
   class="container relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen"
 >
